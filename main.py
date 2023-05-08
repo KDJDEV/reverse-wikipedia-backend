@@ -4,7 +4,7 @@ from zimplyIterate import ZIMIterator
 from imageProcessor import imageProcessor
 imageProcessorObject = imageProcessor()
 
-startAtIndex = 0 #16519000
+startAtIndex = 0
 endAtIndex = 16519000 #this is only used for the percent completed and so does not need to be perfectly accurate
 
 def processImage(imageBinary, url):

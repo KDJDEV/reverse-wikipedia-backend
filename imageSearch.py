@@ -1,7 +1,6 @@
 from utilities import *
 import psycopg2
 from io import BytesIO
-import base64
 from time import perf_counter
 numResultsPerPage = 13
 def imageSearch(imageString, pageNumber):

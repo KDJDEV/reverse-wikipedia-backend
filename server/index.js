@@ -93,7 +93,7 @@ app.post('/submitForm', async (req, res) => {
             body: JSON.stringify(data)
         };
 
-        const webhookResponse = await fetch("https://discord.com/api/webhooks/1061075483049078814/76l21d5cZ94SrrcG2M11z3A_s_vdL3Nn4LeJgPq8JIVHRHagiZ8uYku89W1Umf3IU80k", options);
+        const webhookResponse = await fetch("https://discord.com/api/webhooks/1061075483049078814/76l21d5cZ94SrrcG2M11z3A_s_vdL3Nn4LeJgPq8JIVHRHagiZ8uYku89W1Umf3IU80k", options); //if you stumble upon this webhook while looking at my code, feel free to send me a message
         if (webhookResponse.status !== 204) {
             throw new Error(`the status code (${webhookResponse.status}) of the webhook request denotes an error`);
         }
